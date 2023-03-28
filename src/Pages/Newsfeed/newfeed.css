@@ -1,0 +1,60 @@
+#newsfeed {
+
+}
+.al-center {
+  align-items: center;
+}
+.suggestions {
+  font-family: "IBM Plex Mono";
+  height: calc(100vh);
+  /* position: absolute; */
+  right: 0;
+  max-width: 330px;
+  overflow: hidden;
+  position: fixed;
+  /* border-left: 2px solid #3f3f3f; */
+}
+.suggestions:hover {
+    overflow-y: hidden;
+  }
+.suggestions > hr {
+  color: #000000;
+  margin: 14px 14px 26px 14px;
+}
+.suggestions > .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.suggestions > .flex > h2 {
+  font-style: normal;
+  font-weight: 650;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 14px;
+  color: #333333;
+}
+.mt-40 {
+margin-top: 40px;
+}
+.mt-30{
+    margin-top: 30px;
+  }
+.suggestions > .flex > a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #42d392;
+  padding-right: 14px;
+  /* float: right; */
+  position: relative;
+  right: 14px;
+
+}
+
+
+@media (max-width: 1399px) {
+  .suggestions {
+    display: none;
+  }
+}

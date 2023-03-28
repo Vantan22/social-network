@@ -1,0 +1,94 @@
+.wrap-contentViewPost > .userComment-wrapper{
+  margin-top: 17px;
+}
+.userComment-wrapper {
+  width: 283px;
+  margin: 5px 0 5px 0;
+  margin-right: 12px;
+  display: flex;
+  align-items: flex-start;
+  /* font-family: "IBM Plex Mono"; */
+}
+.userComment-wrapper > .userComment-name{
+    font-size: 14px;
+}
+.content-viewPost > .userComment-wrapper {
+  display: flex;
+}
+.litsUser-Comment img{
+    width: 25px;
+    height: 25px;
+}
+.litsUser-Comment span{
+    font-size: 12px;
+}
+.userComment-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #95e6c2;
+}
+.userComment-avatar {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+/* .userComment-name {
+    margin-right: 10px;
+    font-size: 12px;
+} */
+.userComment-name > span {
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 10px;
+  /* identical to box height */
+
+  color: #383838;
+}
+.userComment-name > p {
+  /* font-family: "IBM Plex Mono"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 2.5px 0;
+  line-height: 13px;
+  /* identical to box height */
+
+  color: #ababab;
+}
+.wrap-user {
+  display: flex;
+  align-items: center;
+}
+
+.block-cmt {
+  /* display: flex; */
+  width: 100%;
+}
+.block-cmt .postItem-desc{
+  font-size: 12px;
+  font-family: Roboto;
+  margin-left: 0;
+}
+.userCapsion-text{
+  font-size: 12px;
+  font-family: Roboto;
+}
+.litsUser-Comment > .userComment-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 89%;
+}
+.userComment-wrapper{
+  width: 89%;
+}
+.userComment-text{
+  font-family: 'Roboto';
+  font-size: 12px;
+}

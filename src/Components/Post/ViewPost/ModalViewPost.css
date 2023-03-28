@@ -1,0 +1,188 @@
+.wrap-modal-viewPost {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999999999999;
+}
+.modal-viewPost {
+  width: 1000px;
+  height: 700px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 23px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999999999999999999999;
+  overflow: hidden;
+  display: flex;
+}
+.img-viewPost {
+  width: 600px;
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+.content-viewPost {
+  width: 400px;
+}
+.content-viewPost img {
+  margin-left: 16px;
+}
+.wrap-contentViewPost {
+  overflow: hidden;
+  height: 621px;
+  overflow-y: scroll;
+  /* scrollbar-gutter: stable; */
+  /* transition: ease-in 1s; */
+}
+
+.wrap-contentViewPost::-webkit-scrollbar {
+  /* width: 5px; */
+}
+.wrap-contentViewPost::-webkit-slider-thumb {
+  background-color: #a09c9c;
+  border-radius: 4px;
+}
+.wrap-contentViewPost::-webkit-scrollbar-track {
+  background-color: #d9d9d9;
+  /* background-color:#851313;  */
+  border-radius: 4px;
+}
+
+.des-viewPost {
+  font-family: "Roboto";
+  margin-left: 16px;
+  margin-right: 24px;
+  font-size: 12px;
+}
+.close-modal {
+  position: absolute;
+  background-color: #a72c05;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 14px;
+  margin-top: 14px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.close-modal .close-modalX {
+  margin-left: 4px;
+  width: 7px;
+  height: 15px;
+}
+/* .line-viewPost {
+  width: 360px;
+  display: block;
+  border-bottom: 1px solid #000000;
+  margin: 15px 16px 19px;
+} */
+.bottom-viewPost {
+  position: fixed;
+  bottom: 0.5%;
+}
+.line-viewPost2 {
+  width: 360px;
+  display: block;
+  border-bottom: 1px solid #000000;
+  margin: 15px 5px 5px 20px;
+}
+
+.litsUser-Comment .UserItem-wrapper {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.litsUser-Comment .userItem-avatar,
+.add-commentPost img {
+  width: 25px;
+  height: 25px;
+}
+.userComment-name a {
+  color: #000000;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.litsUser-Comment span a {
+  font-size: 12px;
+  line-height: 13px;
+  word-break: break-all;
+  /* margin-right: 9px; */
+}
+.add-commentPost {
+  display: flex;
+  align-items: center;
+}
+
+.infor-viewPost {
+  display: flex;
+  margin: 8px 0;
+}
+.viewPost-comment,
+.viewPost-like {
+  display: flex;
+  align-items: center;
+}
+.viewPost-like img,
+.viewPost-comment img {
+  width: 31.5px;
+  height: 20.12px;
+}
+.viewPost-like span,
+.viewPost-comment span {
+  font-family: "IBM Plex Mono";
+  font-size: 12px;
+  line-height: 13px;
+}
+.comment-input {
+  display: flex;
+  align-items: center;
+}
+.inputComment {
+  font-family: "IBM Plex Mono";
+  font-size: 12px;
+  line-height: 14px;
+  width: 245px;
+  /* min-height: 15px; */
+  max-height: 28px;
+  display: flex;
+  outline: none;
+  border: none;
+  /* margin-left: 10px; */
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.comment-viewPost {
+  margin-right: 38%;
+}
+
+.comment-viewPost:focus {
+  background-color: red;
+}
+
+.btn-commentPost {
+  font-size: 14px;
+  line-height: 12px;
+  color: #33a06f;
+  margin-left: 13px;
+  cursor: pointer;
+}
+.line-comment {
+  width: 300px;
+  border-bottom: 1px solid #404040;
+}
+.line-commentAtive {
+  width: 300px;
+  border-bottom: 1px solid #2ccf3a;
+}

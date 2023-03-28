@@ -1,0 +1,45 @@
+.Notification {
+    font-family: 'IBM Plex Mono';
+}
+
+.Notification>h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin: 15px;
+}
+
+.Notification-content {
+    margin: 30px 15px;
+    width: 366px;
+    height: 56px;
+}
+
+.noti-item {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 56px;
+   
+}
+
+.noti-item>img {
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.noti-item > span {
+ 	display: block;
+  	display: -webkit-box;
+  	height: 16px*1.3*3;
+  	font-size: 16px;
+  	line-height: 1.3;
+  	-webkit-line-clamp: 3;  /* số dòng hiển thị */
+  	-webkit-box-orient: vertical;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	margin-top:10px;
+}

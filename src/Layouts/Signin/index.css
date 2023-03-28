@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,500;1,300;1,400&family=IM+Fell+DW+Pica&display=swap");
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1617px;
+  height: 844px;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: auto auto; */
+  text-align: center;
+  border: solid 1px #ababab;
+  border-radius: 25px;
+  user-select: none;
+}
+.zxcvbn {
+  margin-left: 50px;
+}
+
+img {
+  width: 611px;
+  height: 611px;
+}
+.grid-item {
+  text-align: center;
+}
+.text {
+  font-size: 53px;
+  font-family: "IM Fell DW Pica", serif;
+  color: #42d392;
+  margin-top: 4%;
+  margin-left: -11%;
+}

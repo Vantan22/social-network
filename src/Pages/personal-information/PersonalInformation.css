@@ -1,0 +1,29 @@
+.avatar {
+    width: 900px;
+    margin: 12px 0 12px 0;
+    margin-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "IBM Plex Mono";
+  }
+  .avatar > div {
+    display: flex;
+  }
+  .avatar .userItem-avatar {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-right: 16px;
+    border-radius: 50%;
+  }
+
+  .avatar .UserItem-Name > span {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33.8px;
+    margin: 2.5px 0;
+    color: #383838;
+  }
